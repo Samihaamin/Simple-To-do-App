@@ -55,9 +55,16 @@ class TodoController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Todo $todo)
     {
-        // Write the code for your assignment here.
+        $id = $todo->id;
+        $name = $todo->name;
+        $description = $todo->description;
+        return view ('page2', compact('id','name','description'));
+    }
+
+    public function back($id){
+        return view ('todo.index', compact('id'));
     }
 
     /**

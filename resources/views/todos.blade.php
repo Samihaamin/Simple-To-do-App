@@ -4,7 +4,9 @@
 
     <!-- Bootstrap Boilerplate... -->
 
-    <div class="panel-body">
+    </br>
+
+    <div class="panel-body" style="font-family:avenir;">
         <!-- Display Validation Errors -->
         @include('common.errors')
 
@@ -14,7 +16,7 @@
 
             <!-- todo name -->
             <div class="form-group">
-                <label for="name" class="col-sm-3 control-label">Todo Name</label>
+                <label for="name" class="col-sm-3 control-label">To-do Name</label>
 
                 <div class="col-sm-6">
                     <input type="text" name="name" id="todo-name" class="form-control">
@@ -34,7 +36,7 @@
             <div class="form-group">
                 <div class="col-sm-offset-3 col-sm-6">
                     <button type="submit" class="btn btn-default">
-                        <i class="fa fa-plus"></i> Add Todo
+                        <i class="fa fa-plus"></i> Add To-do
                     </button>
                 </div>
             </div>
@@ -44,9 +46,9 @@
     <!-- Current todos -->
     <!-- Current todos -->
     @if (count($todos) > 0)
-        <div class="panel panel-default">
+        <div class="panel panel-default" style="font-family:avenir;">
             <div class="panel-heading">
-                Current todos
+                Current To-dos
             </div>
 
             <div class="panel-body">
@@ -54,7 +56,7 @@
 
                     <!-- Table Headings -->
                     <thead>
-                        <th>todo</th>
+                        <th>To-do</th>
                         <th>&nbsp;</th>
                     </thead>
 
@@ -64,9 +66,8 @@
                             <tr>
                                 <!-- todo Name -->
                                 <td class="table-text">
-                                    <div>{{ $todo->name }}</div>
+                                    <div> <a href="{{ route('todo.show', $todo->id, $todo->name) }}"> {{ $todo->name }} </a> </div>
                                 </td>
-
                                 <td>
                                     <!-- Delete Button -->
                                     <td>
@@ -74,9 +75,10 @@
                                             {{ csrf_field() }}
                                             {{ method_field('DELETE') }}
 
-                                            <button type="submit" class="btn btn-danger">
+                                            <center> <button type="submit" class="btn btn-danger">
                                                 <i class="fa fa-trash"></i> Delete
                                             </button>
+                                            </center>
                                         </form>
                                     </td>
                                 </td>
