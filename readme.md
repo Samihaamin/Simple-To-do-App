@@ -1,44 +1,4 @@
-# DoSomething Software Engineering Fall Internship Homework
-
-### The Assignment
-
-This repo contains all the code for a simple todo list application built using the [Laravel](https://laravel.com) Framework and the Bootstrap CSS Framework.
-
-Your assignment is to add a feature that satisfies this user story:
-
-```
-As a user, I want to be able to click on a individual todo to see more detail about the task.
-```
-
-* Fork and clone this repository and set it up as a local app running inside [Homestead](https://github.com/laravel/homestead).
-* Follow the installation instructions below once you have set it up in Homestead.
-* You will notice that the application allows you to add a todo, view all todos, and delete a todo. Todos are composed of a `name` and a `description`. Your assignment is to link each todo to it's own page (`i.e. http://ds-todos.app/todo/2`) that displays both the name and description of the todo.
-
-### Installation instructions
-
-After the initial Homestead installation `vagrant ssh` into the vagrant box, head to the project directory and run composer to install all the project dependencies:
-
-```shell
-$ composer install
-```
-
-Once all vendor dependencies are installed, run the migrations to setup the database and seed it:
-
-```shell
-$ php artisan migrate
-$ php artisan db:seed
-```
-
-Now you should be all set! Go to the url you set up in Homestead (i.e `http://ds-todos.app`) in your browser and you should see your freshly installed application.
-
----
-
-### Notes
-
-* You have until 8/24 at 3:00pm (EST) to complete the assignment. Email me a link to your fork of this repository as the submission.
-* If you need any clarification on these instructions, send questions my way and I will answer them to the best of my ability. My email address is `ssmith@dosomething.org`
-* Use any further documentation you want to complete the assignment, but the [laravel documentation](http://laravel.com) is pretty solid. Check it out!
-* Bonus: feel free to make the app look better, not required, but it is pretty hard to look at as it stands now.
+Enhanchments to the Lavarel Basic Task List
 
 ## Laravel PHP Framework
 
