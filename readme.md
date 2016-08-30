@@ -1,4 +1,6 @@
-Enhanchments to the Lavarel Basic Task List
+##Enhanchments to the Lavarel Basic Task List
+* Ability to click on Tasks to see descriptions in a separate page.
+* UI Enhancements.
 
 ## Laravel PHP Framework
 
