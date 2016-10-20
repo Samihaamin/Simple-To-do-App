@@ -4,8 +4,6 @@
 
 ![alt tag](https://github.com/Samihaamin/Simple-To-do-App/blob/master/1.png)
 
-![alt tag](https://github.com/Samihaamin/Simple-To-do-App/blob/master/2.png)
-
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
