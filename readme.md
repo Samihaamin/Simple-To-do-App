@@ -2,9 +2,9 @@
 * Ability to click on Tasks to see descriptions in a separate page.
 * UI Enhancements.
 
-![alt tag](https://github.com/Samihaamin/Simple-To-do-App/blob/master/Screenshot-1.png)
+![alt tag](https://github.com/Samihaamin/Simple-To-do-App/blob/master/1.png)
 
-![alt tag](https://github.com/Samihaamin/Simple-To-do-App/blob/master/Screenshot-2.png)
+![alt tag](https://github.com/Samihaamin/Simple-To-do-App/blob/master/2.png)
 
 ## Laravel PHP Framework
 
